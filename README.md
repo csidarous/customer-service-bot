@@ -11,7 +11,7 @@
 
 Pathfinder AI is an advanced career coaching chatbot designed to assist users in navigating their professional journeys. Leveraging the latest advancements in AI technology, Pathfinder AI provides personalized career advice, job search assistance, and resume feedback to help users achieve their career goals.
 
-## Live Demo
+
 ## Live Demo
 You can view a live demo of the Inventory Manager website [here](https://customer-service-bot-eight.vercel.app).
 
