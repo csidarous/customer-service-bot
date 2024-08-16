@@ -5,11 +5,11 @@ import HomeIcon from '@mui/icons-material/Home';
 import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import AttachFileIcon from '@mui/icons-material/AttachFile';
-import { storage } from '/firebase/firebaseConfig'; // Adjust the path as necessary
+import { storage } from '../firebase/firebaseConfig'; // Adjust the path as necessary
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
 import pdfToText from 'react-pdftotext';
-import { auth } from '/firebase/firebaseConfig';
-import {googleProvider} from '/firebase/firebaseConfig';
+import { auth } from '../firebase/firebaseConfig';
+import {googleProvider} from '../firebase/firebaseConfig';
 import { signInWithRedirect, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, GoogleAuthProvider } from "firebase/auth";
 import GoogleIcon from '@mui/icons-material/Google';
 
