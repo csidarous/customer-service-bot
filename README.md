@@ -17,7 +17,6 @@ Pathfinder AI is an advanced career coaching chatbot designed to assist users in
 ### Backend
 - **Node.js**: Powers the server-side logic, managing user interactions and processing requests.
 - **OpenAI**: Handles natural language processing to generate accurate and context-aware responses.
-- **AWS EC2 Servers**: Ensures high availability and scalability, providing a seamless user experience.
 - **RAG (Retrieval-Augmented Generation)**: Enhances the bot's ability to retrieve relevant job postings and career-related information, making the advice more practical and actionable.
 
 ### Frontend
@@ -26,9 +25,9 @@ Pathfinder AI is an advanced career coaching chatbot designed to assist users in
 
 ## Future Improvements
 
-- **Enhanced Authentication**: Further development of the authentication feature to include detailed user profiles and personalized career tracking.
 - **Advanced Job Search Capabilities**: Ongoing improvements to the RAG feature to include even more accurate and comprehensive job postings, tailored to the user's preferences and career aspirations.
-
+- **Structure of Chat Bot Responses**: Improve the UI of the chat bot repsones to make them more user friendly.
+- **AWS EC2 Servers**: Ensures high availability and scalability, providing a seamless user experience.
 ## Contributors
 
 - **[Christopher Sidarous]** - Implemented OpenAI as our chatbot API and integrated RAG to enhance the bot by feeding it additional information, such as resumes.

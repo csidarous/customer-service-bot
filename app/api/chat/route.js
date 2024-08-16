@@ -34,7 +34,7 @@ export async function POST(req) {
       model: 'gpt-4', // Specify the model to use (make sure 'gpt-4' is correct)
       stream: true, // Enable streaming responses
     });
-
+    
     // Create a ReadableStream to handle the streaming response
     const stream = new ReadableStream({
       async start(controller) {
