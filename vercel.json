@@ -1,6 +1,6 @@
 {
     "functions": {
-      "backend/**/*.py": {
+      "backend/main.py": {
         "runtime": "python3.12"  
       }
     },
