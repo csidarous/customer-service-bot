@@ -1,7 +1,7 @@
 {
     "functions": {
       "backend/**/*.py": {
-        "runtime": "python3.9"  
+        "runtime": "python3.12.4"  
       }
     },
     "builds": [
