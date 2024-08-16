@@ -122,10 +122,11 @@ export default function Home() {
         const formData = new FormData();
         formData.append('file', pdfBlob, file.name);
 
-        const res = await fetch("http://127.0.0.1:8000/process-resume", {
+        const res = await fetch("/api/process-resume", {
           method: "POST",
           body: formData,
         });
+        
       
         const result = await res.json();
         const formattedFeedback = result.feedback; // Adds a newline before each numbered point
