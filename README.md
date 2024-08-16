@@ -1,8 +1,20 @@
 # Pathfinder AI
 
+## Table of Contents
+1. [Live Demo](#live-demo)
+2. [Features](#features)
+3. [Technology Stack](#technology-stack)
+4. [Future Improvements](#future-improvments)
+5. [Contact](#contributors)
+
 ## Overview
 
 Pathfinder AI is an advanced career coaching chatbot designed to assist users in navigating their professional journeys. Leveraging the latest advancements in AI technology, Pathfinder AI provides personalized career advice, job search assistance, and resume feedback to help users achieve their career goals.
+
+
+## Live Demo
+You can view a live demo of the Inventory Manager website [here](https://customer-service-bot-eight.vercel.app).
+
 
 ## Features
 
@@ -30,7 +42,7 @@ Pathfinder AI is an advanced career coaching chatbot designed to assist users in
 - **AWS EC2 Servers**: Ensures high availability and scalability, providing a seamless user experience.
 ## Contributors
 
-- **[Christopher Sidarous]** - Implemented OpenAI as our chatbot API and integrated RAG to enhance the bot by feeding it additional information, such as resumes.
+- **[Christopher Sidarous]** - Implemented OpenAI as our chatbot API and working on integrating RAG to enhance the bot by feeding it additional information, such as resumes.
 - **[Nicholas Lorenzi]** - Contributions to backend architecture and implementing AWS.
 - **[Isaac Shaker]** - Frontend design and user experience enhancements.
 
