@@ -3,11 +3,17 @@
     "builds": [
         {
             "src": "package.json",
-            "use": "@vercel/next"
+            "use": "@vercel/next",
+            "config": {
+                "nodeVersion": "20.11.1"
+            }
         },
         {
             "src": "backend/main.py",
-            "use": "@vercel/python"
+            "use": "@vercel/python",
+            "config": {
+                "runtime": "python3.12"
+            }
         }
     ],
     "routes": [
